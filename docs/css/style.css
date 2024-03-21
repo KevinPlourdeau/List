@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(blue, rgb(133, 230, 189));
+}
+
+h1{
+    text-decoration: underline;
+}
+
+.bloc1 {
+    text-align: center ;
+    border: solid 3px;
+    padding: 20px;
+    background: linear-gradient(white, grey);
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    border: solid 2px ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.boutton {
+    margin-bottom: 10px;
+}
+
+#ajouter{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style:italic ;
+    font-size: 18px;
+    border: solid 2px;
+}
+
+#effacer{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    font-style:italic;
+    border: solid 2px;
+}
+
+#liste-mot {
+    padding: 0;
+    list-style-type: none;
+}
+
+#liste-mot li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transform: rotate(-2deg);
+
+}
+
+#liste-mot li:hover {
+    color: red ;
+    transform: rotate(2deg);
+    transition: all 0.3s ease;
+}
